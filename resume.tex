@@ -1,0 +1,98 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[left=0.70in, right=0.70in, top=0.70in, bottom=0.70in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{parskip}
+\usepackage{fontawesome5}
+\usepackage{xcolor}
+\usepackage{helvet}
+
+\pagestyle{empty}
+\titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}[\titlerule]
+\setlist[itemize]{left=1em, label=--, nosep}
+\setlist[itemize]{label=\textbullet}
+\setlist[itemize]{nosep}
+\titlespacing*{\section}{0pt}{8pt plus 2pt minus 2pt}{7pt}
+
+\begin{document}
+
+\begin{center}
+    {\huge \textbf{Eshaan Chaudhari}}\\[0.5em]
+
+    \faEnvelope\hspace{0.5em}\href{mailto:eshaanchaudhari10@outlook.com}{eshaanchaudhari10@outlook.com} \quad
+    $\vert$ \quad
+    \faPhone\hspace{0.5em}647-639-7482 \\[0.25em]
+
+    \faLinkedin\hspace{0.5em}\href{https://linkedin.com/in/eshaan-chaudhari}{linkedin.com/in/eshaan-chaudhari} \quad
+    $\vert$ \quad
+    \faGithub\hspace{0.5em}\href{https://github.com/eshaanc20}{github.com/eshaanc20} \quad
+    $\vert$ \quad
+    \faGlobe\hspace{0.5em}\href{https://eshaanchaudhari.com}{eshaanchaudhari.com}
+\end{center}
+
+\section*{Summary}
+\begin{itemize}
+    \item 2+ years of full-stack development experience across a range of front-end and back-end technologies
+    \item Software Engineering and Management graduate from McMaster University
+    \item Built new features for external users, fixed production defects, enhanced QA workflows for reliable delivery, and translated business requirements into technical software designs
+    \item Developed microservices and REST APIs for large-scale systems on Azure and AWS, with experience in both synchronous and event-driven architectures
+\end{itemize}
+
+\section*{Education}
+\textbf{McMaster University} \hfill Hamilton, ON \\
+Bachelor of Engineering \hfill Graduated 2024 \\
+Software Engineering and Management \hfill GPA: 3.5/4.0
+
+\section*{Experience}
+
+\textbf{Manulife} \hfill Toronto, ON \\
+\textit{Full Stack Software Engineer} \hfill June 2024 - Present
+\begin{itemize}[itemsep=2pt]
+    \item Developed new front-end features using React and back-end functionality with C\# in .NET framework, applying object-oriented design to meet business requirements in an Agile web development environment
+    \item Resolved production defects by analyzing logs in Devo and New Relic, reducing defects below 1\%
+    \item Designed and developed a new application using a React-based micro frontend and a Node.js microservice
+    \item Performed security compliance checks on Azure clusters, configured proxies for cross-cluster resource access and restructured Redis caching to improve memory efficiency and data reusability
+\end{itemize}
+
+\textbf{Ciena} \hfill Ottawa, ON \\
+\textit{Software Engineer Intern} \hfill May–Aug 2021, May–Aug 2022
+\begin{itemize}[itemsep=2pt]
+    \item Built a real-time notification system for networking applications using Java and Spring with Kafka
+    \item Developed new back-end features for RESTful APIs and microservices using OOP in a distributed system
+    \item Translated business requirements into scalable software designs and collaborated with product owners
+    \item Fixed production defects, documented features and supported end-to-end delivery from planning to release
+\end{itemize}
+
+\textit{Software Automation Developer Intern} \hfill Sept 2020–Apr 2021
+\begin{itemize}[itemsep=2pt]
+    \item Developed test automation for microservices using JavaScript and Postman with TeamCity for CI/CD
+    \item Built a Node.js tool to visualize service dependencies, enabling efficient QA testing on affected services
+    \item Automated pull request validation in Python and built a reusable graph library for internal tools
+\end{itemize}
+
+\textbf{Helping Hands} \hfill Mississauga, ON \\
+\textit{Software Developer Intern} \hfill July–Aug 2019
+\begin{itemize}
+    \item Rebuilt 90\% of the front-end using React to deliver new responsive components for improved UX
+\end{itemize}
+
+\section*{Projects}
+
+\textbf{GazeTracker (Capstone Project)}
+\begin{itemize}[itemsep=2pt]
+    \item Collaborated with psychology researchers to develop a browser-based gaze estimation plugin in JavaScript using jsPsych, enabling real-time on-device gaze tracking without specialized hardware or video uploads.
+    \item Built a real-time pipeline combining a face detection model, a lightweight neural gaze estimation model (pitch/yaw), and user-specific calibration to predict on-screen coordinates at 30 FPS on consumer laptops.
+    \item Trained lightweight CNN models for real-time gaze estimation using PyTorch, and built a calibration UI to collect runtime data for a local regression model, achieving $\sim$3° angular accuracy.
+\end{itemize}
+
+\section*{Skills}
+
+\begin{tabular}{ l l }
+\textbf{Languages} & Python, JavaScript, TypeScript, C\#, Java, SQL, Bash \\
+\textbf{Frameworks} & React, Angular, Node.js, Express.js, .NET, Spring Boot, PyTorch, Flask \\
+\textbf{Web Technologies} & HTML, CSS, REST APIs, WebSockets, JSON, GraphQL, gRPC \\
+\textbf{Tools \& Platforms} & Git, Azure, AWS, Docker, Jenkins, Kafka, Redis, MongoDB, Postman, Snyk, NumPy \\
+\end{tabular}
+
+\end{document}

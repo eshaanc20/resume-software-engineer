@@ -1,3 +1,3 @@
-# My Resume
+# Software Engineering Resume
 
-This repository has my resume.
+This repository contains my software engineering resume written in LaTeX.
