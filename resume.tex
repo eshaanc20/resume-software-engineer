@@ -1,5 +1,5 @@
 \documentclass[a4paper,10pt]{article}
-\usepackage[left=0.70in, right=0.70in, top=0.70in, bottom=0.70in]{geometry}
+\usepackage[margin=0.6in]{geometry}
 \usepackage{titlesec}
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
@@ -7,6 +7,7 @@
 \usepackage{fontawesome5}
 \usepackage{xcolor}
 \usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
 
 \pagestyle{empty}
 \titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}[\titlerule]
@@ -18,31 +19,39 @@
 \begin{document}
 
 \begin{center}
-    {\huge \textbf{Eshaan Chaudhari}}\\[0.5em]
+    {\huge \textbf{Eshaan Chaudhari}}
 
-    \faEnvelope\hspace{0.5em}\href{mailto:eshaanchaudhari10@outlook.com}{eshaanchaudhari10@outlook.com} \quad
-    $\vert$ \quad
-    \faPhone\hspace{0.5em}647-639-7482 \\[0.25em]
+    \vspace{0.3em}
 
-    \faLinkedin\hspace{0.5em}\href{https://linkedin.com/in/eshaan-chaudhari}{linkedin.com/in/eshaan-chaudhari} \quad
+    \raisebox{-0.05em}{\faEnvelope}\hspace{0.5em}\href{mailto:eshaanchaudhari10@outlook.com}{eshaanchaudhari10@outlook.com} \quad
     $\vert$ \quad
-    \faGithub\hspace{0.5em}\href{https://github.com/eshaanc20}{github.com/eshaanc20} \quad
+    \raisebox{0.01em}{\faPhone}\hspace{0.5em}647-639-7482 \\[0.25em]
+
+    \raisebox{0.01em}{\faLinkedin}\hspace{0.5em}\href{https://linkedin.com/in/eshaan-chaudhari}{linkedin.com/in/eshaan-chaudhari} \quad
     $\vert$ \quad
-    \faGlobe\hspace{0.5em}\href{https://eshaanchaudhari.com}{eshaanchaudhari.com}
+    \raisebox{0em}{\faGithub}\hspace{0.5em}\href{https://github.com/eshaanc20}{github.com/eshaanc20} \quad
+    $\vert$ \quad
+    \raisebox{0em}{\faGlobe}\hspace{0.5em}\href{https://eshaanchaudhari.com}{eshaanchaudhari.com}
 \end{center}
+
+\vspace{0.3em}
 
 \section*{Summary}
 \begin{itemize}
-    \item 2+ years of full-stack development experience across a range of front-end and back-end technologies
-    \item Software Engineering and Management graduate from McMaster University
-    \item Built new features for external users, fixed production defects, enhanced QA workflows for reliable delivery, and translated business requirements into technical software designs
-    \item Developed microservices and REST APIs for large-scale systems on Azure and AWS, with experience in both synchronous and event-driven architectures
+    \item 2+ years of full-stack software development experience across both front-end and back-end technologies
+    \item Software Engineering and Management graduate from McMaster University with technical and business skills
+    \item Developed new features for external web applications, resolved production issues, built internal tools to improve QA workflows, and translated business requirements into scalable technical designs
+    \item Developed REST APIs and microservices for large-scale, distributed applications running in cloud environments on Azure and AWS, with experience across both synchronous and event-driven system architectures
 \end{itemize}
+
+\vspace{0.2em}
 
 \section*{Education}
 \textbf{McMaster University} \hfill Hamilton, ON \\
 Bachelor of Engineering \hfill Graduated 2024 \\
 Software Engineering and Management \hfill GPA: 3.5/4.0
+
+\vspace{0.2em}
 
 \section*{Experience}
 
@@ -77,14 +86,18 @@ Software Engineering and Management \hfill GPA: 3.5/4.0
     \item Rebuilt 90\% of the front-end using React to deliver new responsive components for improved UX
 \end{itemize}
 
+\vspace{0.2em}
+
 \section*{Projects}
 
 \textbf{GazeTracker (Capstone Project)}
 \begin{itemize}[itemsep=2pt]
     \item Collaborated with psychology researchers to develop a browser-based gaze estimation plugin in JavaScript using jsPsych, enabling real-time on-device gaze tracking without specialized hardware or video uploads
-    \item Built a real-time pipeline combining a face detection model, a lightweight neural gaze estimation model (pitch/yaw), and user-specific calibration to predict on-screen coordinates at 30 FPS on consumer laptops
+    \item Built a real-time gaze estimation pipeline using face detection model, a custom-trained neural network to predict 3D gaze vector, and a runtime-trained regression model for user-specific calibration, achieving 30 FPS
     \item Trained lightweight CNN models using PyTorch, deployed with ONNX for real-time on-device inference, built a calibration UI to collect runtime data for a local regression model to achieve $\sim$3° angular accuracy
 \end{itemize}
+
+\vspace{0.2em}
 
 \section*{Skills}
 
